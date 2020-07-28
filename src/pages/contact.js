@@ -15,6 +15,7 @@ const ContactPage = () => (
       data-netlify="true"
       netlify-honeypot="bot-field"
     >
+      <input type="hidden" name="form-name" value="contact" />
       <label>
         Name
         <input type="text" name="name" required />
